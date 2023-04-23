@@ -12,6 +12,11 @@ namespace Controllers
         {
             return Models.Produto.ListarProdutos();
         }
+
+        public static List<Models.Produto> ListarProduto(int id)
+        {
+            return Models.Produto.ListarProduto(id);
+        }
         public static void RemoverProduto(int id)
         {
             Models.Produto.RemoverProduto(id);

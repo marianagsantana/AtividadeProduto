@@ -2,65 +2,62 @@ using Repository;
 
 namespace Models 
 {
-    public class Produto
+    public class Saldo
     {
         public int id { get; set; }
-        public string nome { get; set; }
-        public double preco { get; set; }
-        public Produto(int id, string nome, double preco)
+        public int id_produto { get; set; }
+        public int id_almoxerifado { get; set; }
+        public int quantidade { get; set; }
+        
+        public Saldo(int id, int id_produto, int id_almoxerifado, int quantidade)
         {
             this.id = id;
-            this.nome = nome;
-            this.preco = preco;
+            this.id_produto = id_produto;
+            this.id_almoxerifado = id_almoxerifado;
+            this.quantidade = quantidade;
         }
-        public static void CadastrarProduto(Produto produto)
+
+        public static void CadastrarSaldo(Saldo saldo)
         {
             try {
                 using(Context context = new Context()) {
-                    context.Produtos.Add(produto);
+                    context.Saldos.Add(saldo);
                     context.SaveChanges();
-                }
-            } catch (System.Exception e) {
-                throw new System.Exception(e.Message);
-            }
-        }
-        public static List<Produto> ListarProdutos()
-        {
-            try {
-                using(Context context = new Context()) {
-                    return context.Produtos.ToList();
                 }
             } catch (System.Exception e) {
                 throw new System.Exception(e.Message);
             }
         }
 
-        public static List<Produto> ListarProduto(int id) {
+        public static List<Saldo> ListarSaldos()
+        {
             try {
                 using(Context context = new Context()) {
-                    return context.Produtos.Where(p => p.id == id).ToList();
+                    return context.Saldos.ToList();
                 }
             } catch (System.Exception e) {
                 throw new System.Exception(e.Message);
             }
         }
-        public static void RemoverProduto(int id)
+
+        public static void RemoverSaldo(int id)
         {
             try {
                 using(Context context = new Context()) {
-                    Produto produto = context.Produtos.Find(id);
-                    context.Produtos.Remove(produto);
+                    Saldo saldo = context.Saldos.Find(id);
+                    context.Saldos.Remove(saldo);
                     context.SaveChanges();
                 }
             } catch (System.Exception e) {
                 throw new System.Exception(e.Message);
             }
         }
-        public static void EditarProduto(Produto produto)
+
+        public static void EditarSaldo(Saldo saldo)
         {
             try {
                 using(Context context = new Context()) {
-                    context.Produtos.Update(produto);
+                    context.Saldos.Update(saldo);
                     context.SaveChanges();
                 }
             } catch (System.Exception e) {
@@ -68,5 +65,8 @@ namespace Models
             }
             
         }
+
+
+        
     }
 }
