@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Facu\\Desktop\\Atividade\\Atividade.csproj": {}
+    "C:\\Users\\Facu\\Documents\\3ª FASE\\DESKTOP\\AtividadeProduto\\Atividade.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Facu\\Desktop\\Atividade\\Atividade.csproj": {
+    "C:\\Users\\Facu\\Documents\\3ª FASE\\DESKTOP\\AtividadeProduto\\Atividade.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Facu\\Desktop\\Atividade\\Atividade.csproj",
+        "projectUniqueName": "C:\\Users\\Facu\\Documents\\3ª FASE\\DESKTOP\\AtividadeProduto\\Atividade.csproj",
         "projectName": "Atividade",
-        "projectPath": "C:\\Users\\Facu\\Desktop\\Atividade\\Atividade.csproj",
+        "projectPath": "C:\\Users\\Facu\\Documents\\3ª FASE\\DESKTOP\\AtividadeProduto\\Atividade.csproj",
         "packagesPath": "C:\\Users\\Facu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Facu\\Desktop\\Atividade\\obj\\",
+        "outputPath": "C:\\Users\\Facu\\Documents\\3ª FASE\\DESKTOP\\AtividadeProduto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Facu\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -10,7 +10,7 @@ using Repository;
 namespace Atividade.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20230423122700_criar-banco")]
+    [Migration("20230427221730_criar-banco")]
     partial class criarbanco
     {
         /// <inheritdoc />
@@ -21,7 +21,7 @@ namespace Atividade.Migrations
                 .HasAnnotation("ProductVersion", "7.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("Models.Almoxerifado", b =>
+            modelBuilder.Entity("Models.Armazem", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -33,7 +33,7 @@ namespace Atividade.Migrations
 
                     b.HasKey("id");
 
-                    b.ToTable("Almoxerifados");
+                    b.ToTable("Armazens");
                 });
 
             modelBuilder.Entity("Models.Produto", b =>
@@ -60,10 +60,10 @@ namespace Atividade.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<int>("id_almoxerifado")
+                    b.Property<int>("ArmazemId")
                         .HasColumnType("int");
 
-                    b.Property<int>("id_produto")
+                    b.Property<int>("ProdutoId")
                         .HasColumnType("int");
 
                     b.Property<int>("quantidade")
@@ -71,7 +71,30 @@ namespace Atividade.Migrations
 
                     b.HasKey("id");
 
+                    b.HasIndex("ArmazemId");
+
+                    b.HasIndex("ProdutoId");
+
                     b.ToTable("Saldos");
+                });
+
+            modelBuilder.Entity("Models.Saldo", b =>
+                {
+                    b.HasOne("Models.Armazem", "Armazem")
+                        .WithMany()
+                        .HasForeignKey("ArmazemId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Models.Produto", "Produto")
+                        .WithMany()
+                        .HasForeignKey("ProdutoId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Armazem");
+
+                    b.Navigation("Produto");
                 });
 #pragma warning restore 612, 618
         }

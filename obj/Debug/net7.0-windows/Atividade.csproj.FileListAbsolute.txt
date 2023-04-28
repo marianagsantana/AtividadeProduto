@@ -1,45 +1,90 @@
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Atividade.exe
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Atividade.deps.json
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Atividade.runtimeconfig.json
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Atividade.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Atividade.pdb
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\BouncyCastle.Crypto.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Google.Protobuf.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Humanizer.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\K4os.Compression.LZ4.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\K4os.Compression.LZ4.Streams.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\K4os.Hash.xxHash.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyModel.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Mono.TextTemplating.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\MySql.Data.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Ubiety.Dns.Core.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Zstandard.Net.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\MySql.Data.EntityFrameworkCore.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\MySqlConnector.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Pomelo.EntityFrameworkCore.MySql.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\Renci.SshNet.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\SshNet.Security.Cryptography.dll
-C:\Users\Facu\Desktop\Atividade\bin\Debug\net7.0-windows\System.Xml.XPath.XmlDocument.dll
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\Atividade.csproj.AssemblyReference.cache
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\Atividade.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\Atividade.AssemblyInfoInputs.cache
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\Atividade.AssemblyInfo.cs
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\Atividade.csproj.CoreCompileInputs.cache
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\staticwebassets\msbuild.Atividade.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\staticwebassets\msbuild.build.Atividade.props
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\staticwebassets\msbuild.buildMultiTargeting.Atividade.props
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\staticwebassets\msbuild.buildTransitive.Atividade.props
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\staticwebassets.pack.json
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\staticwebassets.build.json
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\staticwebassets.development.json
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\scopedcss\bundle\Atividade.styles.css
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\Atividade.csproj.CopyComplete
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\Atividade.dll
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\refint\Atividade.dll
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\Atividade.pdb
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\Atividade.genruntimeconfig.cache
-C:\Users\Facu\Desktop\Atividade\obj\Debug\net7.0-windows\ref\Atividade.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Atividade.exe
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Atividade.deps.json
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Atividade.runtimeconfig.json
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Atividade.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Atividade.pdb
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Google.Protobuf.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Humanizer.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Mono.TextTemplating.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\MySql.Data.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Ubiety.Dns.Core.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Zstandard.Net.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\MySql.Data.EntityFrameworkCore.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\MySqlConnector.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\Renci.SshNet.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\SshNet.Security.Cryptography.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\bin\Debug\net7.0-windows\System.Xml.XPath.XmlDocument.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\Atividade.csproj.AssemblyReference.cache
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\Atividade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\Atividade.AssemblyInfoInputs.cache
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\Atividade.AssemblyInfo.cs
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\Atividade.csproj.CoreCompileInputs.cache
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\staticwebassets\msbuild.Atividade.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\staticwebassets\msbuild.build.Atividade.props
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\staticwebassets\msbuild.buildMultiTargeting.Atividade.props
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\staticwebassets\msbuild.buildTransitive.Atividade.props
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\staticwebassets.pack.json
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\staticwebassets.build.json
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\staticwebassets.development.json
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\scopedcss\bundle\Atividade.styles.css
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\Atividade.csproj.CopyComplete
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\Atividade.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\refint\Atividade.dll
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\Atividade.pdb
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\Atividade.genruntimeconfig.cache
+C:\Users\Facu\Downloads\Atividade\Atividade\obj\Debug\net7.0-windows\ref\Atividade.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Atividade.exe
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Atividade.deps.json
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Atividade.runtimeconfig.json
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Atividade.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Atividade.pdb
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\BouncyCastle.Crypto.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Google.Protobuf.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Humanizer.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Mono.TextTemplating.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\MySql.Data.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Ubiety.Dns.Core.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Zstandard.Net.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\MySql.Data.EntityFrameworkCore.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\MySqlConnector.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\Renci.SshNet.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\SshNet.Security.Cryptography.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\bin\Debug\net7.0-windows\System.Xml.XPath.XmlDocument.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\Atividade.csproj.AssemblyReference.cache
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\Atividade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\Atividade.AssemblyInfoInputs.cache
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\Atividade.AssemblyInfo.cs
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\Atividade.csproj.CoreCompileInputs.cache
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\staticwebassets\msbuild.Atividade.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\staticwebassets\msbuild.build.Atividade.props
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\staticwebassets\msbuild.buildMultiTargeting.Atividade.props
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\staticwebassets\msbuild.buildTransitive.Atividade.props
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\staticwebassets.pack.json
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\staticwebassets.build.json
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\staticwebassets.development.json
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\scopedcss\bundle\Atividade.styles.css
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\Atividade.csproj.CopyComplete
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\Atividade.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\refint\Atividade.dll
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\Atividade.pdb
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\Atividade.genruntimeconfig.cache
+C:\Users\Facu\Documents\3ª FASE\DESKTOP\AtividadeProduto\obj\Debug\net7.0-windows\ref\Atividade.dll

@@ -6826,11 +6826,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Facu\\Documents\\AtividadeProduto\\AtividadeProduto.csproj",
-      "projectName": "AtividadeProduto",
-      "projectPath": "C:\\Users\\Facu\\Documents\\AtividadeProduto\\AtividadeProduto.csproj",
+      "projectUniqueName": "C:\\Users\\Facu\\Documents\\3ª FASE\\DESKTOP\\AtividadeProduto\\Atividade.csproj",
+      "projectName": "Atividade",
+      "projectPath": "C:\\Users\\Facu\\Documents\\3ª FASE\\DESKTOP\\AtividadeProduto\\Atividade.csproj",
       "packagesPath": "C:\\Users\\Facu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Facu\\Documents\\AtividadeProduto\\obj\\",
+      "outputPath": "C:\\Users\\Facu\\Documents\\3ª FASE\\DESKTOP\\AtividadeProduto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Facu\\AppData\\Roaming\\NuGet\\NuGet.Config"

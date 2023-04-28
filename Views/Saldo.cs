@@ -27,15 +27,15 @@ namespace Views
             saldoListView.View = View.Details;
             saldoListView.Columns.Add("Id", 50);
             saldoListView.Columns.Add("Produto", 100);
-            saldoListView.Columns.Add("Almoxerifado", 100);
+            saldoListView.Columns.Add("Armazem", 100);
             saldoListView.Columns.Add("Quantidade", 100);
 
             foreach (Models.Saldo saldo in Controllers.Saldo.ListarSaldos()) {
                 ListViewItem item = new ListViewItem(saldo.id.ToString());
-                List<Models.Produto> produto = Controllers.Produto.ListarProduto(saldo.id_produto);
+                List<Models.Produto> produto = Controllers.Produto.ListarProduto(saldo.ProdutoId);
                 item.SubItems.Add(produto[0].nome);
-                List<Models.Almoxerifado> almoxerifado = Controllers.Almoxerifado.ListarAlmoxerifado(saldo.id_almoxerifado);
-                item.SubItems.Add(almoxerifado[0].nome);
+                List<Models.Armazem> Armazem = Controllers.Armazem.ListarArmazem(saldo.ProdutoId);
+                item.SubItems.Add(Armazem[0].nome);
                 item.SubItems.Add(saldo.quantidade.ToString());
                 saldoListView.Items.Add(item);
             }
@@ -132,18 +132,18 @@ namespace Views
             produtoTextBox.Width = 350;
             produtoTextBox.Height = 20;
 
-            Label almoxerifadoLabel = new Label();
-            almoxerifadoLabel.Text = "Almoxerifado";
-            almoxerifadoLabel.Top = 70;
-            almoxerifadoLabel.Left = 10;
-            almoxerifadoLabel.Width = 100;
-            almoxerifadoLabel.Height = 20;
+            Label ArmazemLabel = new Label();
+            ArmazemLabel.Text = "Armazem";
+            ArmazemLabel.Top = 70;
+            ArmazemLabel.Left = 10;
+            ArmazemLabel.Width = 100;
+            ArmazemLabel.Height = 20;
 
-            TextBox almoxerifadoTextBox = new TextBox();
-            almoxerifadoTextBox.Top = 70;
-            almoxerifadoTextBox.Left = 110;
-            almoxerifadoTextBox.Width = 350;
-            almoxerifadoTextBox.Height = 20;
+            TextBox ArmazemTextBox = new TextBox();
+            ArmazemTextBox.Top = 70;
+            ArmazemTextBox.Left = 110;
+            ArmazemTextBox.Width = 350;
+            ArmazemTextBox.Height = 20;
 
             Label quantidadeLabel = new Label();
             quantidadeLabel.Text = "Quantidade";
@@ -165,7 +165,7 @@ namespace Views
             cadastrarButton.Width = 110;
             cadastrarButton.Height = 20;
             cadastrarButton.Click += (sender, e) => {
-                Controllers.Saldo.CadastrarSaldo(new Models.Saldo(int.Parse(saldoTextBox.Text), int.Parse(produtoTextBox.Text), int.Parse(almoxerifadoTextBox.Text), int.Parse(quantidadeTextBox.Text)));
+                Controllers.Saldo.CadastrarSaldo(new Models.Saldo(int.Parse(saldoTextBox.Text), int.Parse(produtoTextBox.Text), int.Parse(ArmazemTextBox.Text), int.Parse(quantidadeTextBox.Text)));
                 saldoForm.Close();
                 ListarSaldo();
             };
@@ -184,8 +184,8 @@ namespace Views
             saldoForm.Controls.Add(saldoTextBox);
             saldoForm.Controls.Add(produtoLabel);
             saldoForm.Controls.Add(produtoTextBox);
-            saldoForm.Controls.Add(almoxerifadoLabel);
-            saldoForm.Controls.Add(almoxerifadoTextBox);
+            saldoForm.Controls.Add(ArmazemLabel);
+            saldoForm.Controls.Add(ArmazemTextBox);
             saldoForm.Controls.Add(quantidadeLabel);
             saldoForm.Controls.Add(quantidadeTextBox);
             saldoForm.Controls.Add(cadastrarButton);
@@ -233,18 +233,18 @@ namespace Views
             produtoTextBox.Width = 350;
             produtoTextBox.Height = 20;
 
-            Label almoxerifadoLabel = new Label();
-            almoxerifadoLabel.Text = "Almoxerifado";
-            almoxerifadoLabel.Top = 70;
-            almoxerifadoLabel.Left = 10;
-            almoxerifadoLabel.Width = 100;
-            almoxerifadoLabel.Height = 20;
+            Label ArmazemLabel = new Label();
+            ArmazemLabel.Text = "Armazem";
+            ArmazemLabel.Top = 70;
+            ArmazemLabel.Left = 10;
+            ArmazemLabel.Width = 100;
+            ArmazemLabel.Height = 20;
 
-            TextBox almoxerifadoTextBox = new TextBox();
-            almoxerifadoTextBox.Top = 70;
-            almoxerifadoTextBox.Left = 110;
-            almoxerifadoTextBox.Width = 350;
-            almoxerifadoTextBox.Height = 20;
+            TextBox ArmazemTextBox = new TextBox();
+            ArmazemTextBox.Top = 70;
+            ArmazemTextBox.Left = 110;
+            ArmazemTextBox.Width = 350;
+            ArmazemTextBox.Height = 20;
 
             Label quantidadeLabel = new Label();
             quantidadeLabel.Text = "Quantidade";
@@ -266,7 +266,7 @@ namespace Views
             editarButton.Width = 110;
             editarButton.Height = 20;
             editarButton.Click += (sender, e) => {
-                Controllers.Saldo.EditarSaldo(new Models.Saldo(int.Parse(saldoTextBox.Text), int.Parse(produtoTextBox.Text), int.Parse(almoxerifadoTextBox.Text), int.Parse(quantidadeTextBox.Text)));
+                Controllers.Saldo.EditarSaldo(new Models.Saldo(int.Parse(saldoTextBox.Text), int.Parse(produtoTextBox.Text), int.Parse(ArmazemTextBox.Text), int.Parse(quantidadeTextBox.Text)));
                 saldoForm.Close();
                 ListarSaldo();
             };
@@ -285,8 +285,8 @@ namespace Views
             saldoForm.Controls.Add(saldoTextBox);
             saldoForm.Controls.Add(produtoLabel);
             saldoForm.Controls.Add(produtoTextBox);
-            saldoForm.Controls.Add(almoxerifadoLabel);
-            saldoForm.Controls.Add(almoxerifadoTextBox);
+            saldoForm.Controls.Add(ArmazemLabel);
+            saldoForm.Controls.Add(ArmazemTextBox);
             saldoForm.Controls.Add(quantidadeLabel);
             saldoForm.Controls.Add(quantidadeTextBox);
             saldoForm.Controls.Add(editarButton);

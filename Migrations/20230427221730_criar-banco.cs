@@ -15,7 +15,7 @@ namespace Atividade.Migrations
                 .Annotation("MySql:CharSet", "utf8mb4");
 
             migrationBuilder.CreateTable(
-                name: "Almoxerifados",
+                name: "Armazens",
                 columns: table => new
                 {
                     id = table.Column<int>(type: "int", nullable: false)
@@ -25,7 +25,7 @@ namespace Atividade.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Almoxerifados", x => x.id);
+                    table.PrimaryKey("PK_Armazens", x => x.id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -51,28 +51,50 @@ namespace Atividade.Migrations
                 {
                     id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    id_produto = table.Column<int>(type: "int", nullable: false),
-                    id_almoxerifado = table.Column<int>(type: "int", nullable: false),
+                    ProdutoId = table.Column<int>(type: "int", nullable: false),
+                    ArmazemId = table.Column<int>(type: "int", nullable: false),
                     quantidade = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Saldos", x => x.id);
+                    table.ForeignKey(
+                        name: "FK_Saldos_Armazens_ArmazemId",
+                        column: x => x.ArmazemId,
+                        principalTable: "Armazens",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Saldos_Produtos_ProdutoId",
+                        column: x => x.ProdutoId,
+                        principalTable: "Produtos",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Saldos_ArmazemId",
+                table: "Saldos",
+                column: "ArmazemId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Saldos_ProdutoId",
+                table: "Saldos",
+                column: "ProdutoId");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Almoxerifados");
+                name: "Saldos");
+
+            migrationBuilder.DropTable(
+                name: "Armazens");
 
             migrationBuilder.DropTable(
                 name: "Produtos");
-
-            migrationBuilder.DropTable(
-                name: "Saldos");
         }
     }
 }

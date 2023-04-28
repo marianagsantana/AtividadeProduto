@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wMCg41YOufw/k6mXs5A5uO15K78v4FlcBJJIjFJtHhEiguBVYYd9BFKDv1edn09ZpTcA15//0FBHIxXB35LCIw==",
+  "dgSpecHash": "LnkGEKm9Pu0wfO5rYIA1zrRx5nwogcWI+T7Ol0BU3Ru5XJK+btGSt8pRSFx6S7jNJcXmUuFeGLiB2lUp+M/LrA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Facu\\Documents\\AtividadeProduto\\AtividadeProduto.csproj",
+  "projectFilePath": "C:\\Users\\Facu\\Documents\\3ª FASE\\DESKTOP\\AtividadeProduto\\Atividade.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Facu\\.nuget\\packages\\bouncycastle.netcore\\1.8.3\\bouncycastle.netcore.1.8.3.nupkg.sha512",
     "C:\\Users\\Facu\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",

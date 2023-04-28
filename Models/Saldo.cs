@@ -5,15 +5,17 @@ namespace Models
     public class Saldo
     {
         public int id { get; set; }
-        public int id_produto { get; set; }
-        public int id_almoxerifado { get; set; }
+        public Produto Produto { get; set; }
+        public int ProdutoId{ get; set; }
+        public Armazem Armazem { get; set; }
+        public int ArmazemId { get; set; }
         public int quantidade { get; set; }
         
-        public Saldo(int id, int id_produto, int id_almoxerifado, int quantidade)
+        public Saldo(int id, int produtoId, int armazemId, int quantidade)
         {
             this.id = id;
-            this.id_produto = id_produto;
-            this.id_almoxerifado = id_almoxerifado;
+            this.ProdutoId = produtoId;
+            this.ArmazemId = armazemId;
             this.quantidade = quantidade;
         }
 

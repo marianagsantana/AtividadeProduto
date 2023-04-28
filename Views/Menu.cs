@@ -28,12 +28,12 @@ namespace Views
             cadastrarProdutoButton.Width = 250;
             cadastrarProdutoButton.Click += (sender, e) => { Produto.ListarProdutos(); };
 
-            Button cadastrarAlmoxeriadoButton = new Button();
-            cadastrarAlmoxeriadoButton.Text = "Almoxerifado";
-            cadastrarAlmoxeriadoButton.Top = 40;
-            cadastrarAlmoxeriadoButton.Left = 10;
-            cadastrarAlmoxeriadoButton.Width = 250;
-            cadastrarAlmoxeriadoButton.Click += (sender, e) => { Almoxerifado.ListarAlmoxerifados(); };
+            Button cadastrarArmazemButton = new Button();
+            cadastrarArmazemButton.Text = "Armazem";
+            cadastrarArmazemButton.Top = 40;
+            cadastrarArmazemButton.Left = 10;
+            cadastrarArmazemButton.Width = 250;
+            cadastrarArmazemButton.Click += (sender, e) => { Armazem.ListarArmazems(); };
 
             Button cadastrarSaldoButton = new Button();
             cadastrarSaldoButton.Text = "Saldo";
@@ -50,7 +50,7 @@ namespace Views
             sairButton.Click += (sender, e) => { menuForm.Close(); };
             menuForm.Controls.Add(sairButton);
             menuForm.Controls.Add(cadastrarProdutoButton);
-            menuForm.Controls.Add(cadastrarAlmoxeriadoButton);
+            menuForm.Controls.Add(cadastrarArmazemButton);
             menuForm.Controls.Add(cadastrarSaldoButton);
             menuForm.ShowDialog();
         }
